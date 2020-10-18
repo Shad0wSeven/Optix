@@ -38,7 +38,7 @@ class NextStep1ViewController: UIViewController {
             {
                 "question": "\(question.question)",
                 "answer_method": "\(question.answerMethod)",
-                "answer": \(question.answer),
+                "answer": "\(question.answer)",
                 "solution": "\(question.solution)"
             }
             """

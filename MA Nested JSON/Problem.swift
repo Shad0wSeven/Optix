@@ -24,7 +24,7 @@ struct Problem : Codable {
         struct Set : Codable {
             let question: String
             let answer_method: String
-            let answer: Int
+            let answer: String
             let solution: String
         }
         let set: [Set]

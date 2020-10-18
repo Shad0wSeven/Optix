@@ -18,12 +18,15 @@ class CreateQuestionViewController: UIViewController {
     
     @IBOutlet weak var SolutionText: UITextField!
     
+    @IBOutlet weak var AnswerMethodText: UITextField!
+    
     lazy var questionMaze: [Question] = questionMatrix
     
     @IBAction func AddAnother(_ sender: UIButton) {
         let questionText: String = QuestionText.text ?? "NULL"
         let answerText: String = AnswerText.text ?? "NULL"
         var solutionText: String = SolutionText.text ?? "NULL"
+        var answerMethodText: String = AnswerMethodText.text ?? "NULL"
         
         // Check if Filled Out
         if questionText == "" || answerText == "" {
@@ -37,28 +40,31 @@ class CreateQuestionViewController: UIViewController {
         }
         
         // Check Answer
-        var answerInt: Int =  Int(answerText) ?? -2147483647 // Min N, if this is used, oh well bug found!
+//        var answerInt: Int =  Int(answerText) ?? -2147483647 // Min N, if this is used, oh well bug found!
         
-        if answerInt == -2147483647 && answerText != "" {
-            print("Number Error!")
-            let alert = UIAlertController(title: "Invalid Number for Answer!", message: "Please just enter numbers!", preferredStyle: .alert)
-
-            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-
-            self.present(alert, animated: true)
-            return
-        }
-        
-        if answerInt == -2147483647 {
-            answerInt = 0
-        }
+//        if answerInt == -2147483647 && answerText != "" {
+//            print("Number Error!")
+//            let alert = UIAlertController(title: "Invalid Number for Answer!", message: "Please just enter numbers!", preferredStyle: .alert)
+//
+//            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+//
+//            self.present(alert, animated: true)
+//            return
+//        }
+//
+//        if answerInt == -2147483647 {
+//            answerInt = 0
+//        }
         
         // Check Solution
         if solutionText == "" {
             solutionText = "No Solution Provided!"
         }
+        if answerMethodText == "" {
+            answerMethodText = "Integer"
+        }
         
-        let toAdd: Question = Question(question: questionText, answer: answerInt, answerMethod: "Integer", solution: solutionText)
+        let toAdd: Question = Question(question: questionText, answer: answerText, answerMethod: answerMethodText, solution: solutionText)
         
         questionMatrix.append(toAdd)
         
@@ -83,7 +89,7 @@ class CreateQuestionViewController: UIViewController {
         let questionText: String = QuestionText.text ?? "NULL"
         let answerText: String = AnswerText.text ?? "NULL"
         var solutionText: String = SolutionText.text ?? "NULL"
-        
+        var answerMethodText: String = AnswerMethodText.text ?? "NULL"
         // Check if Filled Out
         if questionText == "" || answerText == "" {
             print("Text Error!")
@@ -96,28 +102,31 @@ class CreateQuestionViewController: UIViewController {
         }
         
         // Check Answer
-        var answerInt: Int =  Int(answerText) ?? -2147483647 // Min N, if this is used, oh well bug found!
-        
-        if answerInt == -2147483647 && answerText != "" {
-            print("Number Error!")
-            let alert = UIAlertController(title: "Invalid Number for Answer!", message: "Please just enter numbers!", preferredStyle: .alert)
-
-            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-
-            self.present(alert, animated: true)
-            return
-        }
-        
-        if answerInt == -2147483647 {
-            answerInt = 0
-        }
+//        var answerInt: Int =  Int(answerText) ?? -2147483647 // Min N, if this is used, oh well bug found!
+//
+//        if answerInt == -2147483647 && answerText != "" {
+//            print("Number Error!")
+//            let alert = UIAlertController(title: "Invalid Number for Answer!", message: "Please just enter numbers!", preferredStyle: .alert)
+//
+//            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+//
+//            self.present(alert, animated: true)
+//            return
+//        }
+//
+//        if answerInt == -2147483647 {
+//            answerInt = 0
+//        }
         
         // Check Solution
         if solutionText == "" {
             solutionText = "No Solution Provided!"
         }
+        if answerMethodText == "" {
+            answerMethodText = "Integer"
+        }
         
-        let toAdd: Question = Question(question: questionText, answer: answerInt, answerMethod: "Integer", solution: solutionText)
+        let toAdd: Question = Question(question: questionText, answer: answerText, answerMethod: answerMethodText, solution: solutionText)
         
         questionMatrix.append(toAdd)
         

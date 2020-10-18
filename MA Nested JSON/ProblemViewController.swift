@@ -35,18 +35,18 @@ class ProblemViewController: UIViewController {
         
         if let answer = textField.text, !answer.isEmpty {
            // myTextField is not empty here
-            let answerInt = Int(answer) ?? 999999999
+            _ = Int(answer) ?? 999999999
             
-            if answerInt == 999999999 {
+            if false {
                 
-                // Invalid answer
-                pleaseEnterAnswerText.isHidden = true
-                
-                invalidAnswerText.isHidden = false
+//                // Invalid answer
+//                pleaseEnterAnswerText.isHidden = true
+//
+//                invalidAnswerText.isHidden = false
                 
             } else {
                 // Not an invalid answer
-                if "\(data?.problems[currentSetNumber].set[currentProblemNumber].answer ?? 0)" == answer {
+                if "\(data?.problems[currentSetNumber].set[currentProblemNumber].answer ?? "0")" == answer {
                        answerMatrix.append(true)
 //                       print("\(String(describing: answer)): TRUE")
                    } else {

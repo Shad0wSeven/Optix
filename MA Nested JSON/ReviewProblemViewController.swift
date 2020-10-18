@@ -31,7 +31,7 @@ class ReviewProblemViewController: UIViewController {
         
         ProblemName.text? = data?.problems[currentSetNumber].set[currentProblemNumber].question ?? "<NOT FOUND!>"
         
-        CorrectAnswer.text? = "\(data?.problems[currentSetNumber].set[currentProblemNumber].answer ?? 0)"
+        CorrectAnswer.text? = "\(data?.problems[currentSetNumber].set[currentProblemNumber].answer ?? "Error")"
         
         var correctText: String = ""
         

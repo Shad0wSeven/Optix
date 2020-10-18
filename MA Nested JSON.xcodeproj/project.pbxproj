@@ -139,6 +139,7 @@
 				B1CE318124DF3227004A1AE4 /* Info.plist */,
 				B1CE318724DF3476004A1AE4 /* Problem.swift */,
 				B1CE318B24DF39A2004A1AE4 /* DataLoader.swift */,
+				B1EF5D802536A1790054761A /* Question.swift */,
 				B1E44DE3250DE7A400DED448 /* UpdateSetDataLoader.swift */,
 				B1CE317724DF3226004A1AE4 /* ViewController.swift */,
 				B1A925F224DF554C00F52566 /* DetailViewController.swift */,
@@ -149,7 +150,6 @@
 				B1E44DE7250DEE8900DED448 /* SpinnerViewController.swift */,
 				B1EF5D7A253688920054761A /* WhichOneViewController.swift */,
 				B1EF5D7C25368A8A0054761A /* CreateBeginViewController.swift */,
-				B1EF5D802536A1790054761A /* Question.swift */,
 				B1EF5D7E2536A07C0054761A /* CreateQuestionViewController.swift */,
 				B1EF5D822536B0800054761A /* NextStep1ViewController.swift */,
 				B1EF5D842536DD960054761A /* CopyShareViewController.swift */,
@@ -490,12 +490,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = Q68LVAZN2K;
 				INFOPLIST_FILE = "MA Nested JSON copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xsquared.MA-Nested-JSON";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -508,12 +510,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = Q68LVAZN2K;
 				INFOPLIST_FILE = "MA Nested JSON copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xsquared.MA-Nested-JSON";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

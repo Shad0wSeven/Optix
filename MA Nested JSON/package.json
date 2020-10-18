@@ -15,13 +15,13 @@
             "set": [{
                     "question": "1 + 1",
                     "answer_method": "Whole Number",
-                    "answer": 2,
+                    "answer": "2",
                     "solution": "None!"
                 },
                 {
                     "question": "1 + 2",
                     "answer_method": "Whole Number",
-                    "answer": 3,
+                    "answer": "3",
                     "solution": "None!"
                 }
             ]
@@ -36,19 +36,19 @@
             "set": [{
                     "question": "2 - 1",
                     "answer_method": "Integer",
-                    "answer": 1,
+                    "answer": "1",
                     "solution": "None!"
                 },
                 {
                     "question": "1 - 1",
                     "answer_method": "Integer",
-                    "answer": 0,
+                    "answer": "0",
                     "solution": "None!"
                 },
                 {
                     "question": "10 - 9",
                     "answer_method": "Integer",
-                    "answer": 1,
+                    "answer": "1",
                     "solution": "None!"
                 }
             ]
@@ -63,19 +63,19 @@
             "set": [{
                     "question": "5 - 7",
                     "answer_method": "Integer",
-                    "answer": -2,
+                    "answer": "-2",
                     "solution": "None!"
                 },
                 {
                     "question": "1 - 10",
                     "answer_method": "Integer",
-                    "answer": -9,
+                    "answer": "-9",
                     "solution": "None!"
                 },
                 {
                     "question": "100 - 95",
                     "answer_method": "Integer",
-                    "answer": 5,
+                    "answer": "5",
                     "solution": "None!"
                 }
             ]
