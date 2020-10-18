@@ -1,1 +1,84 @@
-hello from json file
+{
+    "meta": {
+        "name": "Problem Set",
+        "author": "Ayush Nayak",
+        "version": "1.0a"
+
+    },
+    "problems": [{
+            "id": 12348,
+            "name": "Quick Addition",
+            "difficulty": 2,
+            "author": "Ayush Nayak",
+            "desc": "Basic Addition, with single numbers",
+            "time": 20,
+            "set": [{
+                    "question": "1 + 1",
+                    "answer_method": "Whole Number",
+                    "answer": 2,
+                    "solution": "None!"
+                },
+                {
+                    "question": "1 + 2",
+                    "answer_method": "Whole Number",
+                    "answer": 3,
+                    "solution": "None!"
+                }
+            ]
+        },
+        {
+            "id": 52892,
+            "name": "Easy Subtraction",
+            "difficulty": 2,
+            "author": "Ayush Nayak",
+            "desc": "Subtraction, up and down",
+            "time": 20,
+            "set": [{
+                    "question": "2 - 1",
+                    "answer_method": "Integer",
+                    "answer": 1,
+                    "solution": "None!"
+                },
+                {
+                    "question": "1 - 1",
+                    "answer_method": "Integer",
+                    "answer": 0,
+                    "solution": "None!"
+                },
+                {
+                    "question": "10 - 9",
+                    "answer_method": "Integer",
+                    "answer": 1,
+                    "solution": "None!"
+                }
+            ]
+        },
+        {
+            "id": 52893,
+            "name": "Medium Subtraction",
+            "difficulty": 3,
+            "author": "Ayush Nayak",
+            "desc": "Subtraction, up and down",
+            "time": 20,
+            "set": [{
+                    "question": "5 - 7",
+                    "answer_method": "Integer",
+                    "answer": -2,
+                    "solution": "None!"
+                },
+                {
+                    "question": "1 - 10",
+                    "answer_method": "Integer",
+                    "answer": -9,
+                    "solution": "None!"
+                },
+                {
+                    "question": "100 - 95",
+                    "answer_method": "Integer",
+                    "answer": 5,
+                    "solution": "None!"
+                }
+            ]
+        }
+    ]
+}

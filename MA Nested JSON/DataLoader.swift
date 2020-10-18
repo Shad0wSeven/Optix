@@ -30,7 +30,7 @@ public class DataLoader {
               } catch {
                   print(error)
                 
-                if let fileLocation = Bundle.main.url(forResource: "testDataNested", withExtension: "json") {
+                if let fileLocation = Bundle.main.url(forResource: "package", withExtension: "json") {
                     
                     do {
                         let data = try Data(contentsOf: fileLocation)
