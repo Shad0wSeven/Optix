@@ -19,7 +19,6 @@
 		B1CE317D24DF3227004A1AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CE317C24DF3227004A1AE4 /* Assets.xcassets */; };
 		B1CE318024DF3227004A1AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CE317E24DF3227004A1AE4 /* LaunchScreen.storyboard */; };
 		B1CE318824DF3476004A1AE4 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CE318724DF3476004A1AE4 /* Problem.swift */; };
-		B1CE318A24DF3712004A1AE4 /* testDataNested.json in Resources */ = {isa = PBXBuildFile; fileRef = B1CE318924DF3712004A1AE4 /* testDataNested.json */; };
 		B1CE318C24DF39A2004A1AE4 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CE318B24DF39A2004A1AE4 /* DataLoader.swift */; };
 		B1DC165B25376F1400F859FF /* finalCreateSetDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC165A25376F1400F859FF /* finalCreateSetDoneViewController.swift */; };
 		B1DDFB1824F861880077DF29 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDFB1724F861880077DF29 /* ReviewViewController.swift */; };
@@ -50,7 +49,6 @@
 		B1CE317F24DF3227004A1AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1CE318124DF3227004A1AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1CE318724DF3476004A1AE4 /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
-		B1CE318924DF3712004A1AE4 /* testDataNested.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = testDataNested.json; path = ../../../mathappstart/testDataNested.json; sourceTree = "<group>"; };
 		B1CE318B24DF39A2004A1AE4 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		B1DC165A25376F1400F859FF /* finalCreateSetDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalCreateSetDoneViewController.swift; sourceTree = "<group>"; };
 		B1DDFB1724F861880077DF29 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				B1CE317E24DF3227004A1AE4 /* LaunchScreen.storyboard */,
 				B1176B07250EBA3000CB5BE1 /* package.json */,
 				B1CE318124DF3227004A1AE4 /* Info.plist */,
-				B1CE318924DF3712004A1AE4 /* testDataNested.json */,
 				B1CE318724DF3476004A1AE4 /* Problem.swift */,
 				B1CE318B24DF39A2004A1AE4 /* DataLoader.swift */,
 				B1A925F224DF554C00F52566 /* DetailViewController.swift */,
@@ -185,7 +182,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CE318A24DF3712004A1AE4 /* testDataNested.json in Resources */,
 				B1CE318024DF3227004A1AE4 /* LaunchScreen.storyboard in Resources */,
 				B1CE317D24DF3227004A1AE4 /* Assets.xcassets in Resources */,
 				B1CE317B24DF3226004A1AE4 /* Main.storyboard in Resources */,
