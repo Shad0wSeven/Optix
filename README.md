@@ -3,7 +3,8 @@
 **Ayush Nayak's Congressional App 2020**
 
 - Swift 5.0
-- Objective-C
+- JSON
+- XML
 - Apple Guidelines UI Features
 - Fast and Responsive
 - Web Integration
