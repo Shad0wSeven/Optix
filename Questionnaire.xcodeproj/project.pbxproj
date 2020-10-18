@@ -40,7 +40,7 @@
 		B12C9A7124E11D3900A7FBA1 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		B17C7309253812BC006EBE79 /* loadASetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadASetViewController.swift; sourceTree = "<group>"; };
 		B1A925F224DF554C00F52566 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		B1CE317024DF3225004A1AE4 /* MA Nested JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MA Nested JSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CE317024DF3225004A1AE4 /* Questionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questionnaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CE317324DF3226004A1AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1CE317524DF3226004A1AE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B1CE317724DF3226004A1AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -79,7 +79,7 @@
 		B1CE316724DF3225004A1AE4 = {
 			isa = PBXGroup;
 			children = (
-				B1CE317224DF3225004A1AE4 /* MA Nested JSON */,
+				B1CE317224DF3225004A1AE4 /* Questionnaire */,
 				B1CE317124DF3225004A1AE4 /* Products */,
 				F989A9BF253C2BB200AFFF11 /* MA Nested JSON copy-Info.plist */,
 			);
@@ -88,12 +88,12 @@
 		B1CE317124DF3225004A1AE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1CE317024DF3225004A1AE4 /* MA Nested JSON.app */,
+				B1CE317024DF3225004A1AE4 /* Questionnaire.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1CE317224DF3225004A1AE4 /* MA Nested JSON */ = {
+		B1CE317224DF3225004A1AE4 /* Questionnaire */ = {
 			isa = PBXGroup;
 			children = (
 				B1CE317324DF3226004A1AE4 /* AppDelegate.swift */,
@@ -123,15 +123,15 @@
 				B17C7309253812BC006EBE79 /* loadASetViewController.swift */,
 				B1DC165A25376F1400F859FF /* finalCreateSetDoneViewController.swift */,
 			);
-			path = "MA Nested JSON";
+			path = Questionnaire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1CE316F24DF3225004A1AE4 /* MA Nested JSON */ = {
+		B1CE316F24DF3225004A1AE4 /* Questionnaire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1CE318424DF3227004A1AE4 /* Build configuration list for PBXNativeTarget "MA Nested JSON" */;
+			buildConfigurationList = B1CE318424DF3227004A1AE4 /* Build configuration list for PBXNativeTarget "Questionnaire" */;
 			buildPhases = (
 				B1CE316C24DF3225004A1AE4 /* Sources */,
 				B1CE316D24DF3225004A1AE4 /* Frameworks */,
@@ -141,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = "MA Nested JSON";
+			name = Questionnaire;
 			productName = "MA Nested JSON";
-			productReference = B1CE317024DF3225004A1AE4 /* MA Nested JSON.app */;
+			productReference = B1CE317024DF3225004A1AE4 /* Questionnaire.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -161,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1CE316B24DF3225004A1AE4 /* Build configuration list for PBXProject "MA Nested JSON" */;
+			buildConfigurationList = B1CE316B24DF3225004A1AE4 /* Build configuration list for PBXProject "Questionnaire" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1CE316F24DF3225004A1AE4 /* MA Nested JSON */,
+				B1CE316F24DF3225004A1AE4 /* Questionnaire */,
 			);
 		};
 /* End PBXProject section */
@@ -366,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q68LVAZN2K;
-				INFOPLIST_FILE = "MA Nested JSON/Info.plist";
+				INFOPLIST_FILE = Questionnaire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q68LVAZN2K;
-				INFOPLIST_FILE = "MA Nested JSON/Info.plist";
+				INFOPLIST_FILE = Questionnaire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1CE316B24DF3225004A1AE4 /* Build configuration list for PBXProject "MA Nested JSON" */ = {
+		B1CE316B24DF3225004A1AE4 /* Build configuration list for PBXProject "Questionnaire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1CE318224DF3227004A1AE4 /* Debug */,
@@ -408,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1CE318424DF3227004A1AE4 /* Build configuration list for PBXNativeTarget "MA Nested JSON" */ = {
+		B1CE318424DF3227004A1AE4 /* Build configuration list for PBXNativeTarget "Questionnaire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1CE318524DF3227004A1AE4 /* Debug */,
