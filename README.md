@@ -2,8 +2,15 @@
 
 ## Ayush Nayak's Congressional App 2020
 
--[x] Amazing
+- Swift 5.0
+- Objective-C
+- Apple Guidelines UI Features
+- Fast and Responsive
+- Web Integration
+- Rich First Party Sets
+- Amazing Variety
+- Clean Backend
+- Create *Whatever*
+- Shareability
+- Conforms to All Device Sizes
 
--[x] Built in a Week
-
--[x] Totally not nothing
