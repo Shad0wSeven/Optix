@@ -10,14 +10,7 @@ import UIKit
 
 class loadASetViewController: UIViewController {
     let defaults = UserDefaults.standard
-
-    @IBAction func cancelButton(_ sender: UIButton) {
-        guard let vc = storyboard?.instantiateViewController(identifier: "chooserID") as? WhichOneViewController else {
-            return
-        }
-        vc.title = "Create or Load Sets"
-        navigationController?.pushViewController(vc, animated: true)
-    }
+    
     @IBOutlet weak var URLField: UITextField!
     @IBAction func goWIth(_ sender: UIButton) {
         let currentString: String = URLField.text ?? "NULL"
@@ -81,7 +74,7 @@ class loadASetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.isNavigationBarHidden = true
         // Do any additional setup after loading the view.
     }
     

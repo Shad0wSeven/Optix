@@ -10,13 +10,6 @@ import UIKit
 
 class WhichOneViewController: UIViewController {
 
-    @IBAction func CancelButton(_ sender: UIButton) {
-        guard let vc = storyboard?.instantiateViewController(identifier: "homeView") as? ViewController else {
-            return
-        }
-
-        navigationController?.pushViewController(vc, animated: true)
-    }
     @IBAction func createASet(_ sender: UIButton) {
         guard let vc = storyboard?.instantiateViewController(identifier: "createBegin") as? CreateBeginViewController
             else {
@@ -26,21 +19,21 @@ class WhichOneViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    @IBAction func loadASet(_ sender: UIButton) {
-        guard let vc = storyboard?.instantiateViewController(identifier: "loadSet") as? loadASetViewController
-            else {
-            return
-        }
-        vc.title = "Load a Set"
-        navigationController?.pushViewController(vc, animated: true)
-    }
+//    @IBAction func loadASet(_ sender: UIButton) {
+//        guard let vc = storyboard?.instantiateViewController(identifier: "loadSet") as? loadASetViewController
+//            else {
+//            return
+//        }
+//        vc.title = "Load a Set"
+//        navigationController?.pushViewController(vc, animated: true)
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         
-        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.isNavigationBarHidden = false
     }
     
 

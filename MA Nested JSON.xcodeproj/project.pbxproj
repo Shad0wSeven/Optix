@@ -32,6 +32,31 @@
 		B1EF5D832536B0800054761A /* NextStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D822536B0800054761A /* NextStep1ViewController.swift */; };
 		B1EF5D852536DD960054761A /* CopyShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D842536DD960054761A /* CopyShareViewController.swift */; };
 		B1EF5D872536DFF50054761A /* webOpenerCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D862536DFF50054761A /* webOpenerCreateViewController.swift */; };
+		F989A9A0253C2BB100AFFF11 /* ReviewProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDFB1924F868540077DF29 /* ReviewProblemViewController.swift */; };
+		F989A9A1253C2BB100AFFF11 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D802536A1790054761A /* Question.swift */; };
+		F989A9A2253C2BB100AFFF11 /* UpdateSetDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44DE3250DE7A400DED448 /* UpdateSetDataLoader.swift */; };
+		F989A9A3253C2BB100AFFF11 /* ProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C9A6F24E1103600A7FBA1 /* ProblemViewController.swift */; };
+		F989A9A4253C2BB100AFFF11 /* NextStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D822536B0800054761A /* NextStep1ViewController.swift */; };
+		F989A9A5253C2BB100AFFF11 /* CopyShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D842536DD960054761A /* CopyShareViewController.swift */; };
+		F989A9A6253C2BB100AFFF11 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CE318B24DF39A2004A1AE4 /* DataLoader.swift */; };
+		F989A9A7253C2BB100AFFF11 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44DE7250DEE8900DED448 /* SpinnerViewController.swift */; };
+		F989A9A8253C2BB100AFFF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CE317724DF3226004A1AE4 /* ViewController.swift */; };
+		F989A9A9253C2BB100AFFF11 /* CreateBeginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D7C25368A8A0054761A /* CreateBeginViewController.swift */; };
+		F989A9AA253C2BB100AFFF11 /* CreateQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D7E2536A07C0054761A /* CreateQuestionViewController.swift */; };
+		F989A9AB253C2BB100AFFF11 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CE318724DF3476004A1AE4 /* Problem.swift */; };
+		F989A9AC253C2BB100AFFF11 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A925F224DF554C00F52566 /* DetailViewController.swift */; };
+		F989A9AD253C2BB100AFFF11 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C9A7124E11D3900A7FBA1 /* FinalViewController.swift */; };
+		F989A9AE253C2BB100AFFF11 /* webOpenerCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D862536DFF50054761A /* webOpenerCreateViewController.swift */; };
+		F989A9AF253C2BB100AFFF11 /* loadASetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C7309253812BC006EBE79 /* loadASetViewController.swift */; };
+		F989A9B0253C2BB100AFFF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CE317324DF3226004A1AE4 /* AppDelegate.swift */; };
+		F989A9B1253C2BB100AFFF11 /* finalCreateSetDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DC165A25376F1400F859FF /* finalCreateSetDoneViewController.swift */; };
+		F989A9B2253C2BB100AFFF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CE317524DF3226004A1AE4 /* SceneDelegate.swift */; };
+		F989A9B3253C2BB100AFFF11 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDFB1724F861880077DF29 /* ReviewViewController.swift */; };
+		F989A9B4253C2BB100AFFF11 /* WhichOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF5D7A253688920054761A /* WhichOneViewController.swift */; };
+		F989A9B7253C2BB100AFFF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CE317E24DF3227004A1AE4 /* LaunchScreen.storyboard */; };
+		F989A9B8253C2BB100AFFF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CE317C24DF3227004A1AE4 /* Assets.xcassets */; };
+		F989A9B9253C2BB100AFFF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CE317924DF3226004A1AE4 /* Main.storyboard */; };
+		F989A9BA253C2BB100AFFF11 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = B1176B07250EBA3000CB5BE1 /* package.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,10 +87,19 @@
 		B1EF5D822536B0800054761A /* NextStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextStep1ViewController.swift; sourceTree = "<group>"; };
 		B1EF5D842536DD960054761A /* CopyShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyShareViewController.swift; sourceTree = "<group>"; };
 		B1EF5D862536DFF50054761A /* webOpenerCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webOpenerCreateViewController.swift; sourceTree = "<group>"; };
+		F989A9BE253C2BB100AFFF11 /* MA Nested JSON copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MA Nested JSON copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F989A9BF253C2BB200AFFF11 /* MA Nested JSON copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MA Nested JSON copy-Info.plist"; path = "/Users/shad0w7/Documents/Congressional-App-2020/MA Nested JSON copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B1CE316D24DF3225004A1AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F989A9B5253C2BB100AFFF11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,6 +114,7 @@
 			children = (
 				B1CE317224DF3225004A1AE4 /* MA Nested JSON */,
 				B1CE317124DF3225004A1AE4 /* Products */,
+				F989A9BF253C2BB200AFFF11 /* MA Nested JSON copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				B1CE317024DF3225004A1AE4 /* MA Nested JSON.app */,
+				F989A9BE253C2BB100AFFF11 /* MA Nested JSON copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,21 +132,20 @@
 			children = (
 				B1CE317324DF3226004A1AE4 /* AppDelegate.swift */,
 				B1CE317524DF3226004A1AE4 /* SceneDelegate.swift */,
-				B1CE317724DF3226004A1AE4 /* ViewController.swift */,
 				B1CE317924DF3226004A1AE4 /* Main.storyboard */,
-				B1DC165A25376F1400F859FF /* finalCreateSetDoneViewController.swift */,
-				B1CE317C24DF3227004A1AE4 /* Assets.xcassets */,
 				B1CE317E24DF3227004A1AE4 /* LaunchScreen.storyboard */,
+				B1CE317C24DF3227004A1AE4 /* Assets.xcassets */,
 				B1176B07250EBA3000CB5BE1 /* package.json */,
 				B1CE318124DF3227004A1AE4 /* Info.plist */,
 				B1CE318724DF3476004A1AE4 /* Problem.swift */,
 				B1CE318B24DF39A2004A1AE4 /* DataLoader.swift */,
+				B1E44DE3250DE7A400DED448 /* UpdateSetDataLoader.swift */,
+				B1CE317724DF3226004A1AE4 /* ViewController.swift */,
 				B1A925F224DF554C00F52566 /* DetailViewController.swift */,
 				B12C9A6F24E1103600A7FBA1 /* ProblemViewController.swift */,
 				B12C9A7124E11D3900A7FBA1 /* FinalViewController.swift */,
 				B1DDFB1724F861880077DF29 /* ReviewViewController.swift */,
 				B1DDFB1924F868540077DF29 /* ReviewProblemViewController.swift */,
-				B1E44DE3250DE7A400DED448 /* UpdateSetDataLoader.swift */,
 				B1E44DE7250DEE8900DED448 /* SpinnerViewController.swift */,
 				B1EF5D7A253688920054761A /* WhichOneViewController.swift */,
 				B1EF5D7C25368A8A0054761A /* CreateBeginViewController.swift */,
@@ -120,6 +155,7 @@
 				B1EF5D842536DD960054761A /* CopyShareViewController.swift */,
 				B1EF5D862536DFF50054761A /* webOpenerCreateViewController.swift */,
 				B17C7309253812BC006EBE79 /* loadASetViewController.swift */,
+				B1DC165A25376F1400F859FF /* finalCreateSetDoneViewController.swift */,
 			);
 			path = "MA Nested JSON";
 			sourceTree = "<group>";
@@ -142,6 +178,23 @@
 			name = "MA Nested JSON";
 			productName = "MA Nested JSON";
 			productReference = B1CE317024DF3225004A1AE4 /* MA Nested JSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F989A99E253C2BB100AFFF11 /* MA Nested JSON copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F989A9BB253C2BB100AFFF11 /* Build configuration list for PBXNativeTarget "MA Nested JSON copy" */;
+			buildPhases = (
+				F989A99F253C2BB100AFFF11 /* Sources */,
+				F989A9B5253C2BB100AFFF11 /* Frameworks */,
+				F989A9B6253C2BB100AFFF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MA Nested JSON copy";
+			productName = "MA Nested JSON";
+			productReference = F989A9BE253C2BB100AFFF11 /* MA Nested JSON copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -173,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				B1CE316F24DF3225004A1AE4 /* MA Nested JSON */,
+				F989A99E253C2BB100AFFF11 /* MA Nested JSON copy */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +240,17 @@
 				B1CE317D24DF3227004A1AE4 /* Assets.xcassets in Resources */,
 				B1CE317B24DF3226004A1AE4 /* Main.storyboard in Resources */,
 				B1176B08250EBA3000CB5BE1 /* package.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F989A9B6253C2BB100AFFF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F989A9B7253C2BB100AFFF11 /* LaunchScreen.storyboard in Resources */,
+				F989A9B8253C2BB100AFFF11 /* Assets.xcassets in Resources */,
+				F989A9B9253C2BB100AFFF11 /* Main.storyboard in Resources */,
+				F989A9BA253C2BB100AFFF11 /* package.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +282,34 @@
 				B1CE317624DF3226004A1AE4 /* SceneDelegate.swift in Sources */,
 				B1DDFB1824F861880077DF29 /* ReviewViewController.swift in Sources */,
 				B1EF5D7B253688920054761A /* WhichOneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F989A99F253C2BB100AFFF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F989A9A0253C2BB100AFFF11 /* ReviewProblemViewController.swift in Sources */,
+				F989A9A1253C2BB100AFFF11 /* Question.swift in Sources */,
+				F989A9A2253C2BB100AFFF11 /* UpdateSetDataLoader.swift in Sources */,
+				F989A9A3253C2BB100AFFF11 /* ProblemViewController.swift in Sources */,
+				F989A9A4253C2BB100AFFF11 /* NextStep1ViewController.swift in Sources */,
+				F989A9A5253C2BB100AFFF11 /* CopyShareViewController.swift in Sources */,
+				F989A9A6253C2BB100AFFF11 /* DataLoader.swift in Sources */,
+				F989A9A7253C2BB100AFFF11 /* SpinnerViewController.swift in Sources */,
+				F989A9A8253C2BB100AFFF11 /* ViewController.swift in Sources */,
+				F989A9A9253C2BB100AFFF11 /* CreateBeginViewController.swift in Sources */,
+				F989A9AA253C2BB100AFFF11 /* CreateQuestionViewController.swift in Sources */,
+				F989A9AB253C2BB100AFFF11 /* Problem.swift in Sources */,
+				F989A9AC253C2BB100AFFF11 /* DetailViewController.swift in Sources */,
+				F989A9AD253C2BB100AFFF11 /* FinalViewController.swift in Sources */,
+				F989A9AE253C2BB100AFFF11 /* webOpenerCreateViewController.swift in Sources */,
+				F989A9AF253C2BB100AFFF11 /* loadASetViewController.swift in Sources */,
+				F989A9B0253C2BB100AFFF11 /* AppDelegate.swift in Sources */,
+				F989A9B1253C2BB100AFFF11 /* finalCreateSetDoneViewController.swift in Sources */,
+				F989A9B2253C2BB100AFFF11 /* SceneDelegate.swift in Sources */,
+				F989A9B3253C2BB100AFFF11 /* ReviewViewController.swift in Sources */,
+				F989A9B4253C2BB100AFFF11 /* WhichOneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +485,42 @@
 			};
 			name = Release;
 		};
+		F989A9BC253C2BB100AFFF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q68LVAZN2K;
+				INFOPLIST_FILE = "MA Nested JSON copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xsquared.MA-Nested-JSON";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F989A9BD253C2BB100AFFF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q68LVAZN2K;
+				INFOPLIST_FILE = "MA Nested JSON copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xsquared.MA-Nested-JSON";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +538,15 @@
 			buildConfigurations = (
 				B1CE318524DF3227004A1AE4 /* Debug */,
 				B1CE318624DF3227004A1AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F989A9BB253C2BB100AFFF11 /* Build configuration list for PBXNativeTarget "MA Nested JSON copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F989A9BC253C2BB100AFFF11 /* Debug */,
+				F989A9BD253C2BB100AFFF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
