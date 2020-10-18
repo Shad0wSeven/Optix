@@ -114,7 +114,16 @@ class CreateBeginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         self.navigationController?.isNavigationBarHidden = false
+        
+        // View Stuff
+        
+        
     }
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
     
     
     // Data Set
@@ -145,3 +154,5 @@ class CreateBeginViewController: UIViewController {
     */
 
 }
+
+
