@@ -2,8 +2,8 @@
 
 ## Ayush Nayak's Congressional App 2020
 
-[x] Amazing
+-[x] Amazing
 
-[x] Built in a Week
+-[x] Built in a Week
 
-[x] Totally not nothing
+-[x] Totally not nothing
