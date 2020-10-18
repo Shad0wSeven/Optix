@@ -1,6 +1,6 @@
-# Congressional-App-2020
+# Congressional App 2020
 
-## Ayush Nayak's Congressional App 2020
+**Ayush Nayak's Congressional App 2020**
 
 - Swift 5.0
 - Objective-C
