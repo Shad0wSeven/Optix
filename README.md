@@ -15,3 +15,4 @@
 - Shareability
 - Conforms to All Device Sizes
 
+**well uh this one didnt win rip try again next time!**
