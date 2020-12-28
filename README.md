@@ -1,6 +1,6 @@
 # Congressional App 2020
 
-**Ayush Nayak's Congressional App 2020**
+**[redacted]'s Congressional App 2020**
 
 - Swift 5.0
 - JSON
@@ -16,3 +16,5 @@
 - Conforms to All Device Sizes
 
 **well uh this one didnt win rip try again next time!**
+
+california district [redacted]
