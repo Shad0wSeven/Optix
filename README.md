@@ -3,6 +3,8 @@
 ### NOTE: This is NOT The code for the 2021 Winner, if you want that ask me, but is the previous code for my (failed) 2020 submission.
 I just wanted to be able to pin this repo lol so it's like this :)
 
+For something close to it, here's the repo it was based off of [Shad0wSeven/abandoned-cv-project](https://github.com/Shad0wSeven/abandoned-cv-project)
+
 ## Congressional App 2020
 
 - Swift 5.0
