@@ -1,6 +1,9 @@
-# Congressional App 2020
+# 2021 District 52 Congressional App Challenge Winning Project!
 
-**[redacted]'s Congressional App 2020**
+### NOTE: This is NOT The code for the 2021 Winner, if you want that ask me, but is the previous code for my (failed) 2020 submission.
+I just wanted to be able to pin this repo lol so it's like this :)
+
+## Congressional App 2020
 
 - Swift 5.0
 - JSON
@@ -16,5 +19,6 @@
 - Conforms to All Device Sizes
 
 **well uh this one didnt win rip try again next time!**
+*Spoiler alert next time did work lol*
 
-california district [redacted]
+california district 52
